@@ -18,3 +18,5 @@ int main(){
 
 	printf("result : %d\n",tmp);
 }
+
+
