@@ -1,14 +1,20 @@
 
-// 1+2+4+7+11+16+22+...
+// 1+2+4+7+11+16+22+... 20번째 항까지 합산
 
 #include<stdio.h>
 
 int main(){
 
-	int i=1;
-	int input[2];
+	int i=0;
+	int j=1;
+	int tmp=1;
 
-	scanf("%d %d: ",input[0],input[1]);
+	do
+	{
+		i++;
+		j += i;
+		tmp += j;
+	} while (i<19);
 
-	printf("result : %d %d\n",input[0],input[1]);
+	printf("result : %d\n",tmp);
 }
