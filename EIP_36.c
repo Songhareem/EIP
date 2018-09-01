@@ -21,7 +21,7 @@ int main(){
 
 	for(i=0;i<5;i++) {
 
-		for(j=0;j<=4;j++) {
+		for(j=sp;j<=ep;j++) {
 
 			arr[i][j] = var;
 			var++;
